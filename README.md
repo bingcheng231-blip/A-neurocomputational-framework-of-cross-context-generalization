@@ -18,7 +18,7 @@ Note: because we did not seed the randomization in the original analyses, some o
 
 ## Data availability
 The data provided is intended to facilitate the reproduction of results at different levels within the main analysis.
-The data required for the main analysis is located in the https://www.scidb.cn/s/jqiuY3./data folder. 
+The data required for the main analysis is located in the https://www.scidb.cn/s/jqiuY3 . 
 
 
 ### How to get all data used in this paper?
