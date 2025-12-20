@@ -12,18 +12,26 @@ In general, if anything across the codes is missing or unlclear, you are most we
 
 ## General description:
 The primary analyses and result figures from the paper can be reproduced by running the Main_result.m script.
-To run the script correctly, please add the functions in the ./analyses_function folder and the ./analyses_function/utilities folder to the working path
+
+## Instructions
+To run the script correctly, please add the functions in the ./analyses_function folder and the ./analyses_function/utilities folder to the MATLAB working path
+To reproduce the result figures, please set the re_analysis variable in Main_result.m to false. The full run will take approximately 5–30 minutes, depending on your CPU's computational performance.
+To reproduce the main analysis, please set the re_analysis variable in Main_result.m to true. The complete run may take several days, depending on your CPU's computational performance.
+The PyTorch code for simulating the phase and amplitude modulation of VTC using an MLP with a Gaussian activation function can be found in MLP_with_modulated_GaussianActivation_verA100.ipynb.The complete run may take several days, depending on your GPU's computational performance.
 
 Note: because we did not seed the randomization in the original analyses, some of the results are not 100% identical (due to randomized updampling in the decoding analyses). 
 
 ## Data availability
 The data provided is intended to facilitate the reproduction of results at different levels within the main analysis.
-The data required for the main analysis is located in the https://www.scidb.cn/s/jqiuY3 . 
+The data required for the main analysis is located in the https://www.scidb.cn/s/jqiuY3./data folder. 
 
 
 ### How to get all data used in this paper?
-The behavior and neuroimage data that support the findings of this study are available upon request from the corresponding author by e-mail after the paper is accepted.
+The raw behavior and neuroimage data that support the findings of this study are available upon request from the corresponding author by e-mail after the paper is accepted.
 
+
+# operating systems
+Windows 11 专业版 23H2
 
 # Software Versions 
 ## Graphpad 
